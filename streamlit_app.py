@@ -12,7 +12,7 @@ streamlit.text('Hard-Boiled Free-Range Egg')
 
 
 streamlit.header('Fruityvice Fruit Advice!')
-fruityvice_responce = requests.get("https://fruityvice.com/api/fruit/watermelon")
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
 #streamlit.text(fruityvice_responce.json())
 
 #take the json version of the response and normalize it
