@@ -12,7 +12,7 @@ streamlit.text('Hard-Boiled Free-Range Egg')
 
 
 streamlit.header('Fruityvice Fruit Advice!')
-fruit_choie = streamlit.text_input('What fruit would you like information about?, 'kiwi')
+fruit_choie = streamlit.text_input('What fruit would you like information about?', 'kiwi')
 streamlit.write('The user entered', fruit_choice)
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choie)
 #streamlit.text(fruityvice_responce.json())
