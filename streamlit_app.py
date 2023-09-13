@@ -1,5 +1,6 @@
 import streamlit
 import requests
+import pandas
 
 fruityvice_responce = requests.get("https://fruityvice.com/api/fruit/watermelon")
 streamlit.text(fruityvice_responce)
