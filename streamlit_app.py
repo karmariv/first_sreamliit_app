@@ -33,7 +33,7 @@ except URLError as e:
 #streamlit.header("The fruit load list contains:")
 #streamlit.dataframe(my_data_rows)
 
-my_cur.execute("insert into fruit_load_list values ('from streamlit')")
+#my_cur.execute("insert into fruit_load_list values ('from streamlit')")
 
 
 def get_fruityvice_data(this_fruit_choice):
